@@ -132,7 +132,7 @@ module Txter
     end
 
     # Returns true if the current phone number has been confirmed by
-    # the user for recieving TXT messages.
+    # the user for receiving TXT messages.
     def sms_confirmed?
       return false if txter_sms_confirmed_phone_number.blank?
       txter_sms_confirmed_phone_number == txter_sms_phone_number

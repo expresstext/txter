@@ -17,12 +17,12 @@ module Txter
 
     def self.deliver(*args)
       # subclasses should actually do something here
-      Success 
+      Success
     end
 
     def self.unblock(*args)
       # subclasses should actually do something here
-      Success 
+      Success
     end
 
     def self.current

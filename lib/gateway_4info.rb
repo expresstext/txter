@@ -21,9 +21,10 @@ module Txter
         Response.new(received)
       else
         Txter.log "Would have sent to 4info.net: #{body}"
+        Success
       end
     end
-      
+
     protected
 
       def self.start
